@@ -8,7 +8,7 @@ First line N (1<=N<=100).
 Then NxN table is given(all number are integers)
 
 Output
-The total sum of element that are located under main diagonals
+The total sum3 of element that are located under main diagonals
 
 
 Sample input:
@@ -19,8 +19,7 @@ Sample input:
 
 Sample output:
 11
-*/
-
+*/	
 #include <iostream>
 using namespace std;
 
