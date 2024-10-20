@@ -1,5 +1,3 @@
-Here’s a suggested preface for your README.md file on GitHub:
-
 Disclaimer
 
 These solutions are not provided with the intent for anyone to copy or cheat. Instead, they serve several purposes:
