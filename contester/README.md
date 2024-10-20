@@ -7,3 +7,5 @@ These solutions are not provided with the intent for anyone to copy or cheat. In
 	•	Learning Resource: They might help others understand the approach to certain problems if they are facing difficulties. Please use these examples responsibly — focus on learning and improving your problem-solving skills.
 
 Feel free to explore and use them as a guide, but always aim to solve problems on your own for the best results.
+
+Astana IT University | Introduction to programming | Contester solutions
