@@ -23,17 +23,40 @@ output:
 using namespace std;
 
 void res(int* arr, int size) {
+	int* ans = new int[size];
+	int initial = 0;
+	int mid = size / 2;
+
 	for (int i=0; i<size; i++) {
-		for (int j=0; j<size; j++)
+		if (arr[i] % 2 == 0) {
+			ans[mid] = arr[i];
+			mid++;
+		}
+		else {
+			ans[initial] = arr[i];
+			initial++;
+		}
 	}
+
+	for (int i=0; i<size; i++) {
+		arr[i] = ans[i];
+	}
+	delete[] ans;
 }
 
 int main() {
 	int size;
 	cin >> size;
 	int* arr = new int[size];
+
 	for (int i=0; i<size; i++) {
 		cin >> arr[i];
 	}
+	res(arr, size);
 
+	for (int i=0; i<size; i++) {
+		cout << arr[i] << " ";
+	}
+	delete[] arr;
+	return 0;
 }
